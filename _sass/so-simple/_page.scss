@@ -62,6 +62,7 @@
   .page-date {
     font-family: $meta-font-family;
     white-space: nowrap;
+    padding-right: 1rem;
   }
 }
 
@@ -86,22 +87,12 @@
   font-size: 0.75rem;
   font-style: italic;
   text-transform: uppercase;
-   
-  @include breakpoint($large) {
-    display: block;
-    margin: 0 0 1.5em 0;
-  }
 }
 
 .page-taxonomy {
   display: inline;
   font-style: italic;
   padding-right: 0.5em;
-}
-
-.page-share {
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
 
 .page-comments {
