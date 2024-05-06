@@ -26,10 +26,6 @@ layout: default
           {{ content }}
         </div>
 
-        {% if page.share %}
-          {% include social-share.html %}
-        {% endif %}
-        
         {% include page-pagination.html %}
         
         {% if site.disqus.shortname %}
