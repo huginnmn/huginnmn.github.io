@@ -1,7 +1,7 @@
 {% if page.tags.size > 0 %}
   {% assign tags = page.tags | sort %}
   <ul class="page-taxonomies">
-              {{ site.data.text[site.locale].tags | default: 'Tags' }}&nbsp;&nbsp;
+              {{ site.data.text[site.locale].tags | default: 'Tags' }}
     {%- for tag in tags -%}
       <li class="page-taxonomy">
         {%- if site.tag_archive_path -%}
