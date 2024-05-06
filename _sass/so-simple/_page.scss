@@ -81,11 +81,12 @@
 }
 
 .page-taxonomies {
-  display: inline;
+  display: block;
   list-style: none;
   font-size: 0.75rem;
   font-style: italic;
   text-transform: uppercase;
+  padding-right: 0.5em;
 }
 
 .page-taxonomy {
