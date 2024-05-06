@@ -6,6 +6,7 @@
   margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
+  max-width: $main-sidebar-max-width;
 }
 
 .page-title {
@@ -57,6 +58,7 @@
 
 .page-sidebar {
   font-size: 0.75rem;
+  text-decoration: none;
   }
 
   .page-date,
