@@ -20,7 +20,7 @@
 locale: ko-KR
 title: "huginn and muninn"
 description: "books quotes thoughts inspirations"
-baseurl: "/blog"
+baseurl: ""
 url: "https://huginnmn.github.io"
 logo: "/images/logo.png"
 date_format: "%Y/%m/%d"
