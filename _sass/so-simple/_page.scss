@@ -195,18 +195,6 @@
 }
 
 .layout--post {
-  .page-wrapper {
-    @include breakpoint($large) {
-      display: grid;
-      grid-column-gap: 3em;
-      grid-row-gap: 0;
-      grid-template-columns: 175px 1fr;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-    }
-  }
-
   .page-header {
     @include breakpoint($large) {
       grid-column: 1 / -1;
@@ -216,15 +204,6 @@
 
   .page-sidebar {
     margin-bottom: 1em;
-
-    @include breakpoint($large) {
-      float: left; // display: grid fallback
-      width: 18%; // display: grid fallback
-    }
-
-    @supports (display: grid) {
-      width: auto;
-    }
 
     a {
       color: inherit;
@@ -236,18 +215,6 @@
     }
   }
 
-  .page-content {
-    @include breakpoint($large) {
-      float: right; // display: grid fallback
-      width: 78%; // display: grid fallback
-      min-width: 0;
-    }
-
-    @supports (display: grid) {
-      width: auto;
-      margin: 0;
-    }
-  }
 
   .page-share {
     // display: grid fallback
