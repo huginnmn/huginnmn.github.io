@@ -133,6 +133,7 @@
    padding: 2em 0 2em;
    margin-bottom: 2em;
    clear: both;
+   border-top: 1px solid #eee;
 
   @include breakpoint($large) {
     display: -webkit-box;
