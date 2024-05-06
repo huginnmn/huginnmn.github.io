@@ -2,6 +2,6 @@
 title: Post Archive
 layout: posts
 permalink: /posts/
-show_excerpts: false
-entries_layout: grid
+show_excerpts: true
+entries_layout: list
 ---
