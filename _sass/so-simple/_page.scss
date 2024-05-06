@@ -61,6 +61,7 @@
 
   .page-date {
     font-family: $meta-font-family;
+    font-style: italic; 
   }
 }
 
@@ -85,7 +86,7 @@
   font-size: 0.75rem;
   font-style: italic;
   text-transform: uppercase;
-  margin: 0 0.2rem 0 0;
+  margin: 0 0.5rem 0 0;
   padding: 0;
 }
 
