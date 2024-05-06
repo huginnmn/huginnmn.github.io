@@ -156,7 +156,10 @@
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-  }
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   }
 
   .entry-excerpt,
   .entry-content {
