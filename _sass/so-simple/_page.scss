@@ -127,9 +127,6 @@
 
 .page-comments {
   margin: 5em 0 3em;
-  background-color: #eee;
-  background-size: cover;
-  display: flex;
 }
 
 .page-pagination {
@@ -137,6 +134,7 @@
    margin-bottom: 2em;
    clear: both;
    border-top: 1px solid #eee;
+   border-bottom: 1px solid #eee;
 
   @include breakpoint($large) {
     display: -webkit-box;
