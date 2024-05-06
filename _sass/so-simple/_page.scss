@@ -59,10 +59,6 @@
 .page-sidebar {
   font-size: 0.75rem;
 
-  @include breakpoint($large) {
-    text-align: center;
-  }
-
   .page-date,
   .read-time {
     font-family: $meta-font-family;
