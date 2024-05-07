@@ -97,9 +97,11 @@
 }
 
 .page-comments {
-  max-width: $main-sidebar-max-width;   
+  max-width: $main-sidebar-max-width;
+  align: center;
   margin: 5em 0 3em;
   background-color: #f5f5f5;
+  background-size: 100% 100%;
 }
 
 .page-pagination {
