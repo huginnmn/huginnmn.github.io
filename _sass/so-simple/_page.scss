@@ -106,30 +106,31 @@
    clear: both;
    border-top: 1px solid #eee;
    border-bottom: 1px solid #eee;
-
-  @include breakpoint($large) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   display: -webkit-box;
+   display: -ms-flexbox;
 }
 
-.page-previous,
+.page-previous {
+   display: block;
+   -webkit-box-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   text-decoration: none;
+   align-items: flex-start;
+   text-align: left;
+}
+
 .page-next {
   display: block;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
   text-decoration: none;
-}
-
-.page-next {
-  margin-top: 1em;
-
-  @include breakpoint($large) {
-    margin-top: 0;
-    text-align: right;
-  }
+  align-items: flex-end;
+  text-align: right;
 }
 
 .page-pagination-label {
@@ -142,6 +143,9 @@
   margin: 0;
   padding: 0;
   font-size: 0.75rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /*
