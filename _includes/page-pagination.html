@@ -3,16 +3,15 @@
     <a class="page-previous" href="{{ page.previous.url | relative_url }}">
       <h4 class="page-pagination-label">{{ site.data.text[site.locale].previous | default: 'Previous' }}</h4>
       <span class="page-pagination-title">
-        <i class="fa-solid fa-angle-left"></i> {{ page.previous.title | markdownify | strip_html }}
+        <i class="fa-solid fa-angle-left"></i> {{ page.previous.title | markdownify | strip_html | truncate: 30 }}
       </span>
     </a>
   {% endif %}
-
   {% if page.next %}
     <a class="page-next" href="{{ page.next.url | relative_url }}">
       <h4 class="page-pagination-label">{{ site.data.text[site.locale].next | default: 'Next' }}</h4>
       <span class="page-pagination-title">
-        {{ page.next.title | markdownify | strip_html }} <i class="fa-solid fa-angle-right"></i>
+        {{ page.next.title | markdownify | strip_html | truncate: 30 }} <i class="fa-solid fa-angle-right"></i>
       </span>
     </a>
   {% endif %}
