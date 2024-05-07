@@ -2,8 +2,8 @@
 layout: post
 title: What could have been (Sting ft. Ray Chen)
 image:
-  path: /images/20220723.jpg
-  thumbnail: /images/20220723.jpg
+  path: /images/20220723.png
+  thumbnail: /images/20220723.png
 tags: 음악 ost soundtrack 아케인 lol 스팅 레이_첸
 ---
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/liPu1_aPH5k?si=m9wM_IsFubhrtHu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
