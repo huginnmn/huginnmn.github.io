@@ -7,4 +7,4 @@ image:
 tags: 음악 로파이 lo-fi
 ---
 
-{% include responsive-embed url="https://soundcloud.com/idealismus/another-perspective" ratio="16:9" %}
+{% include responsive-embed url="https://www.youtube.com/watch?v=_ycXSbf0-Us" ratio="16:9" %}
