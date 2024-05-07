@@ -121,6 +121,9 @@
    text-decoration: none;
    align-items: flex-start;
    text-align: left;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .page-next {
@@ -131,6 +134,9 @@
   text-decoration: none;
   align-items: flex-end;
   text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .page-pagination-label {
