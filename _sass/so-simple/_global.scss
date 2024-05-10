@@ -112,15 +112,6 @@
 }
 
 .site-footer {
-       a {
-      color: #333;
-      text-decoration: none;
-
-      &:hover {
-        color: $accent-color;
-      }
-}
-
   @include clearfix();
    margin: 0;
    padding: 4em;
