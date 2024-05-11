@@ -75,6 +75,8 @@
   .social-icons {
    letter-spacing: 1rem;
    font-size: 0.5rem;
+   color: #333333;
+     &:hover { color: $accent-color; }
   }
 
 
