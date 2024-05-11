@@ -10,6 +10,13 @@
   }
 }
 
+.navigation {
+   dispaly: flex;
+   flex-direction: row;
+   text-align: right;
+   margin-top: 1rem;
+   margin-right: 1rem;
+}
 
 .masthead {
   @include clearfix;
