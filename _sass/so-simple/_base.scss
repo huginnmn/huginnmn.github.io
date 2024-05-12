@@ -16,12 +16,14 @@ hr {
 }
 
 blockquote,
-q {	max-width: 80%;
-	margin: 1rem auto;
-	padding: 1rem;
+q {	max-width: 90%;
+	margin: 1rem 0 1rem 0;
+	padding: 1.5rem;
   	position: relative;
 	background: rgba(0,0,0,.02);
 	box-shadow: 0 0 .5rem rgba(0,0,0,.2) inset;
+	font-family: $serif-font-family;
+	font-weight: 600;
   	
 	&::before {
 	content: "";
